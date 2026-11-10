@@ -15,7 +15,7 @@
 <a class="skip" href="#main">Bỏ qua điều hướng</a>
 <header class="site-header"><div class="wrap bar">
   <a class="brand" href="index.html" aria-label="Nhã Trạm, về trang chủ"><svg viewBox="0 0 40 40" width="34" height="34" aria-hidden="true"><circle cx="14" cy="20" r="11" fill="#A5455F" style="mix-blend-mode:multiply"/><circle cx="26" cy="20" r="11" fill="#2F3A86" style="mix-blend-mode:multiply" opacity=".92"/></svg><span>Nhã Trạm</span></a>
-  <button class="menu-btn" aria-expanded="false" aria-controls="nav" aria-label="Mở menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></button>
+  <button class="menu-btn" aria-expanded="false" aria-controls="nav" aria-label="Mở menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path class="l1" d="M4 8h16"/><path class="l2" d="M4 16h16"/></svg></button>
   <nav class="nav" id="nav" aria-label="Điều hướng chính"><a href="index.html">Trang chủ</a><a href="san-pham.html">Sản phẩm</a><a href="qua-doanh-nghiep.html">Quà doanh nghiệp</a><a href="hinh-anh.html">Hình ảnh</a><a href="ve-nha-tram.html">Về Nhã Trạm</a><a href="lien-he.html" aria-current="page">Liên hệ</a><a class="btn" href="lien-he.html#soan-tin" data-zalo>Nhắn Zalo</a></nav>
 </div></header>
 <main id="main">
@@ -34,9 +34,9 @@
   <form class="compose" data-kind="retail">
     <div class="field"><label for="name">Tên của bạn</label><input id="name" name="name" required autocomplete="name"></div>
     <div class="two"><div class="field"><label for="product">Sản phẩm quan tâm</label><select id="product" name="product"><option>Trà hoa hồng cổ</option><option>Trà hoa đậu biếc</option><option>Hộp Hai Sắc</option><option>Quà doanh nghiệp</option></select></div>
-    <div class="field"><label for="qty">Số lượng</label><input id="qty" name="qty" placeholder="Ví dụ: 2 hộp"></div></div>
-    <div class="field"><label for="contact">Số điện thoại hoặc email</label><input id="contact" name="contact" autocomplete="tel"></div>
-    <div class="field"><label for="note">Lời nhắn</label><textarea id="note" name="note" placeholder="Người nhận, dịp tặng, lời chúc muốn ghi trên thiệp"></textarea></div>
+    <div class="field"><label for="qty">Số lượng</label><input id="qty" name="qty" placeholder="Ví dụ: 2 hộp…"></div></div>
+    <div class="field"><label for="contact">Số điện thoại hoặc email</label><input id="contact" name="contact" autocomplete="off" placeholder="0900 000 000 hoặc email…"></div>
+    <div class="field"><label for="note">Lời nhắn</label><textarea id="note" name="note" placeholder="Người nhận, dịp tặng, lời chúc muốn ghi trên thiệp…"></textarea></div>
     <div><button class="btn" type="submit">Soạn tin nhắn</button></div>
   </form>
   <div class="result" id="result" aria-live="polite"><pre></pre><div class="actions"><button class="btn" type="button" id="copy">Sao chép nội dung</button><a class="btn ghost" href="lien-he.html" data-zalo hidden>Mở Zalo</a></div></div>
